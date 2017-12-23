@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		770AA5F91FEA6A200080DE40 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770AA5F81FEA6A200080DE40 /* DetailViewController.swift */; };
 		77B117951FDE207A002CE3EE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B117941FDE207A002CE3EE /* AppDelegate.swift */; };
 		77B117971FDE207A002CE3EE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B117961FDE207A002CE3EE /* ViewController.swift */; };
 		77B1179A1FDE207A002CE3EE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B117981FDE207A002CE3EE /* Main.storyboard */; };
@@ -14,6 +15,9 @@
 		77B1179F1FDE207A002CE3EE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77B1179D1FDE207A002CE3EE /* LaunchScreen.storyboard */; };
 		77B117AA1FDE207A002CE3EE /* bangtan_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B117A91FDE207A002CE3EE /* bangtan_2Tests.swift */; };
 		77B117B51FDE207A002CE3EE /* bangtan_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B117B41FDE207A002CE3EE /* bangtan_2UITests.swift */; };
+		77B117C31FDE26BD002CE3EE /* Member.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B117C21FDE26BD002CE3EE /* Member.swift */; };
+		77B117C51FDE2707002CE3EE /* BangtanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B117C41FDE2707002CE3EE /* BangtanTableViewController.swift */; };
+		77B117C71FDE2723002CE3EE /* BangtanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 77B117C61FDE2723002CE3EE /* BangtanTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		770AA5F81FEA6A200080DE40 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		77B117911FDE207A002CE3EE /* bangtan_2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bangtan_2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		77B117941FDE207A002CE3EE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		77B117961FDE207A002CE3EE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +52,9 @@
 		77B117B01FDE207A002CE3EE /* bangtan_2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bangtan_2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		77B117B41FDE207A002CE3EE /* bangtan_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = bangtan_2UITests.swift; sourceTree = "<group>"; };
 		77B117B61FDE207A002CE3EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		77B117C21FDE26BD002CE3EE /* Member.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Member.swift; sourceTree = "<group>"; };
+		77B117C41FDE2707002CE3EE /* BangtanTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BangtanTableViewController.swift; sourceTree = "<group>"; };
+		77B117C61FDE2723002CE3EE /* BangtanTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BangtanTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +105,13 @@
 		77B117931FDE207A002CE3EE /* bangtan_2 */ = {
 			isa = PBXGroup;
 			children = (
-				77B117941FDE207A002CE3EE /* AppDelegate.swift */,
-				77B117961FDE207A002CE3EE /* ViewController.swift */,
 				77B117981FDE207A002CE3EE /* Main.storyboard */,
-				77B1179B1FDE207A002CE3EE /* Assets.xcassets */,
-				77B1179D1FDE207A002CE3EE /* LaunchScreen.storyboard */,
+				770AA5F81FEA6A200080DE40 /* DetailViewController.swift */,
+				77B117C41FDE2707002CE3EE /* BangtanTableViewController.swift */,
+				77B117C61FDE2723002CE3EE /* BangtanTableViewCell.swift */,
+				77B117C21FDE26BD002CE3EE /* Member.swift */,
 				77B117A01FDE207A002CE3EE /* Info.plist */,
+				77B117C81FDE2812002CE3EE /* supporting */,
 			);
 			path = bangtan_2;
 			sourceTree = "<group>";
@@ -123,6 +132,17 @@
 				77B117B61FDE207A002CE3EE /* Info.plist */,
 			);
 			path = bangtan_2UITests;
+			sourceTree = "<group>";
+		};
+		77B117C81FDE2812002CE3EE /* supporting */ = {
+			isa = PBXGroup;
+			children = (
+				77B117941FDE207A002CE3EE /* AppDelegate.swift */,
+				77B117961FDE207A002CE3EE /* ViewController.swift */,
+				77B1179B1FDE207A002CE3EE /* Assets.xcassets */,
+				77B1179D1FDE207A002CE3EE /* LaunchScreen.storyboard */,
+			);
+			path = supporting;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +280,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				77B117971FDE207A002CE3EE /* ViewController.swift in Sources */,
+				77B117C31FDE26BD002CE3EE /* Member.swift in Sources */,
+				77B117C71FDE2723002CE3EE /* BangtanTableViewCell.swift in Sources */,
+				770AA5F91FEA6A200080DE40 /* DetailViewController.swift in Sources */,
+				77B117C51FDE2707002CE3EE /* BangtanTableViewController.swift in Sources */,
 				77B117951FDE207A002CE3EE /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -427,7 +451,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9X56337HD;
 				INFOPLIST_FILE = bangtan_2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ning.bangtan-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,7 +467,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W9X56337HD;
 				INFOPLIST_FILE = bangtan_2/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "ning.bangtan-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
